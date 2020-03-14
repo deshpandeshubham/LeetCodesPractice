@@ -1,13 +1,12 @@
 public class Problem1329 {
 
 	public static int[][] diagonalSort(int[][] mat) {
-        for(int i=0;i<mat.length-1;i++) {
-        	for(int j=0;j<mat[0].length-1;j++) {
-        		if(mat[i][j] > mat[i+1][j+1]) {
-        			System.out.println("Element : " + mat[i][j] + " at " + i + j);
+        for(int i=mat.length-1;i>0;i--) {
+        	for(int j=mat.length-1;j>	0;j--) {
+        		if(mat[i][j] < mat[i-1][j-1]) {
         			int temp = mat[i][j];
-        			mat[i][j] = mat[i+1][j+1];
-        			mat[i+1][j+1] = temp;
+        			mat[i][j] = mat[i-1][j-1];
+        			mat[i-1][j-1] = temp;
         		}
         	}
         }
