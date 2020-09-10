@@ -2,9 +2,6 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
-	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Sem2/SpatialDatabases/HomeWork/ShapeFile/esri/MOJ20/lib/esri_mo20.jar"/>
-	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Sem2/SpatialDatabases/HomeWork/ShapeFile/esri/MOJ20/lib/esri_mo20img.jar"/>
-	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Sem2/SpatialDatabases/HomeWork/ShapeFile/esri/MOJ20/lib/esri_mo20res.jar"/>
 	<classpathentry kind="lib" path="F:/app/admin/product/11.2.0/dbhome_1/jdbc/lib/ojdbc6.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
